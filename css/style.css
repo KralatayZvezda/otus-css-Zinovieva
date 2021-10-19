@@ -7,15 +7,3 @@ body{
     font-weight: 700;
     font-size: 14px;
 }
-
-.italics{
-    font-style: italic;
-}
-
-.bold-text{
-    font-weight: 700;
-}
-
-.underline {
-    text-decoration: underline;
-}
