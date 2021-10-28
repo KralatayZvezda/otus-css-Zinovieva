@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Butler";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"), url("/fonts/Butler_Regular.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto"), url("/fonts/Roboto-Regular.ttf") format("ttf");
+}

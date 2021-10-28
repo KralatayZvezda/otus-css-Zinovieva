@@ -1,19 +1,117 @@
-body{
+ body{
+    background-color: deepskyblue;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+ }
 
+ .butler{
+    font-family: "Butler", sans-serif;
+ }
+
+h1, h2, h3, h4, p{
+    text-align: center;
 }
 
-main{
-
+section:nth-child(n){
+    display: block;
+    max-width: 1065px;
+    margin: 0 auto;
 }
 
-section{
-
+.img_backround{ 
+    height: calc(100vh - 270px);
+    background: url(../img/inside.jpg);  
+    background-repeat: no-repeat; 
+    margin: 7%, 0;  
+    margin-top: 5%;
 }
 
-section:first-child{
-
+.test{   
+    width: 40%;
+    height: 30%;
+    padding-top: 7%;
+    background-color: white;
+    margin-top: -8%;
+    top: 30%;
+    position: absolute;
+    left: 30%;
 }
 
-section:nth-child(2){
-    
+
+.text_in_block{    
+    padding-top: 7%;
+    margin-top: -8%;
+    top: 75%;
+    position: absolute;
+    left: 50%; 
+}
+
+.text_in{
+    display: inline-block;
+    width: 45%;
+    margin: 0 1%;
+}
+
+.block{    
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    margin: 0 1%;
+}
+
+.blocks{    
+    display: inline-block;
+    width: 31%;
+    position: relative;
+    margin: 0 1%;
+}
+
+.block_img{
+    max-width: 325px;
+}
+
+.text_in_sec_4{
+    text-align: left;
+}
+.a_bit_left{
+    margin-left: -10%;
+    margin-right: 10%;
+}
+
+.width{
+    width: 250px;
+}
+
+.text_between{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text_size_18{
+    font-size: 18px;
+}
+
+.text_size_87{
+    font-size: 87px;
+}
+
+.text_size_18{
+    font-size: 18px;
+}
+
+.text_size_32{
+    font-size: 32px;
+}
+
+.text_size_16{
+    font-size: 16px;
+}
+
+.text_size_34{
+    font-size: 34px;
+}
+
+.text_size_92{
+    font-size: 92px;
 }
