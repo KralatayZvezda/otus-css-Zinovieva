@@ -9,32 +9,41 @@
  }
 
 h1, h2, h3, h4, p{
-    text-align: center;
+    /* text-align: center; */
 }
 
 section:nth-child(n){
-    display: block;
+
+}
+
+#One{    
     max-width: 1065px;
     margin: 0 auto;
+    height: 100vh;
+    padding: 135px 0;
+    box-sizing: border-box;
 }
 
 .img_backround{ 
     height: calc(100vh - 270px);
     background: url(../img/inside.jpg);  
     background-repeat: no-repeat; 
-    margin: 7%, 0;  
-    margin-top: 5%;
 }
 
 .white_rec{   
-    width: 40%;
-    height: 33%;
-    padding-top: 7%;
     background-color: white;
-    margin-top: -8%;
-    top: 30%;
-    position: absolute;
-    left: 30%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 5.5rem;
+    padding: 130px 0;
+    height: 5.5rem;
+    width: 550px;
+    white-space: nowrap;
+    text-align: center;
 }
 
 .text_in_sec_1{
@@ -44,8 +53,8 @@ section:nth-child(n){
 
 .pos_abs{
     position: absolute;
-    margin-top: -5%;
-    left: 34%;
+    left: 0;
+    right: 0;
 }
 
 .text_in_block{    
