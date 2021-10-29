@@ -26,9 +26,9 @@ section:nth-child(n){
     margin-top: 5%;
 }
 
-.test{   
+.white_rec{   
     width: 40%;
-    height: 30%;
+    height: 33%;
     padding-top: 7%;
     background-color: white;
     margin-top: -8%;
@@ -37,13 +37,24 @@ section:nth-child(n){
     left: 30%;
 }
 
+.text_in_sec_1{
+    position: relative;
+    margin-top: -3%;
+}
+
+.pos_abs{
+    position: absolute;
+    margin-top: -5%;
+    left: 34%;
+}
 
 .text_in_block{    
     padding-top: 7%;
     margin-top: -8%;
-    top: 75%;
+    top: 70%;
     position: absolute;
     left: 50%; 
+    max-width: 30%;
 }
 
 .text_in{
@@ -85,32 +96,4 @@ section:nth-child(n){
 .text_between{
     margin-left: 5%;
     margin-right: 5%;
-}
-
-.text_size_18{
-    font-size: 18px;
-}
-
-.text_size_87{
-    font-size: 87px;
-}
-
-.text_size_18{
-    font-size: 18px;
-}
-
-.text_size_32{
-    font-size: 32px;
-}
-
-.text_size_16{
-    font-size: 16px;
-}
-
-.text_size_34{
-    font-size: 34px;
-}
-
-.text_size_92{
-    font-size: 92px;
 }

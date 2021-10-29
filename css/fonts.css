@@ -2,7 +2,7 @@
     font-family: "Butler";
     font-style: normal;
     font-weight: 400;
-    src: local("Roboto"), url("/fonts/Butler_Regular.otf") format("otf");
+    src: local("Butler"), url("/fonts/Butler_Regular.ttf") format("ttf");
 }
 
 @font-face {
