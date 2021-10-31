@@ -2,19 +2,13 @@
     font-family: "Butler";
     font-style: normal;
     font-weight: 400;
-    src: local("Butler"), url("../fonts/Butler_Regular.ttf") format("ttf");
+    src: local("Butler"), url("../fonts/Butler_Regular.otf") format("otf");
 }
 
 @font-face {
     font-family: "Butler";
     font-style: normal;
     font-weight: 300;
-    src: local("Butler"), url("../fonts/Butler_Regular.ttf") format("ttf");
+    src: local("Butler"), url("../fonts/Butler_Light.otf") format("otf");
 }
 
-@font-face {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Roboto"), url("../fonts/Roboto-Regular.ttf") format("ttf");
-}
