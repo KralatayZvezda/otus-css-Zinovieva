@@ -15,9 +15,19 @@
     box-sizing: border-box;
     line-height: 100vh;
     text-align: center;
+}
+
+.img_background {
     background: url(../img/inside.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 1065px;
     background-size: 100% auto;
 }
 
@@ -29,6 +39,8 @@
     display: inline-block;
     line-height: 1.15;
     vertical-align: middle;
+    position: relative;
+    z-index: 1;
 }
 
 .white_rec h1 {
@@ -45,16 +57,26 @@
     font-size: 0.22em;
 }
 
-.text_in_sec_1 {
-    position: relative;
-    margin-top: -3%;
+.studio {
+    max-width: 1065px;
+    margin: 0 auto;
+    padding-left: calc(0.57 * 1065px);
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    height: 0.82em;
+}
+
+.studio h3 {
+    font-weight: 400;
+    font-size: 1em;
+    color: #8C8888;
 }
 
 .text_in_block {    
     padding-top: 7%;
     margin-top: -8%;
     top: 70%;
-    position: absolute;
+    /*position: absolute;*/
     left: 50%; 
     max-width: 30%;
 }
