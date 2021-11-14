@@ -1,56 +1,56 @@
- body{
+ body {
     overflow-x: hidden;
     width: 100%;
     font-family: "Roboto", sans-serif;
  }
 
- .butler{
-    font-weight: 400;
+ .butler {
     font-family: "Butler", sans-serif;
  }
 
-#One{    
+#One {    
     max-width: 1065px;
     margin: 0 auto;
     height: 100vh;
-    padding: 135px 0;
     box-sizing: border-box;
-}
-
-.img_backround{ 
-    height: calc(100vh - 270px);
-    background: url(../img/inside.jpg);  
-    background-repeat: no-repeat; 
-}
-
-.white_rec{   
-    background-color: white;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    font-size: 5.5rem;
-    padding: 130px 0;
-    height: 5.5rem;
-    width: 550px;
-    white-space: nowrap;
+    line-height: 100vh;
     text-align: center;
+    background: url(../img/inside.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
 }
 
-.text_in_sec_1{
+.white_rec { 
+    background-color: white;
+    font-size: 5.5rem;
+    text-align: center;
+    padding: 1.5em 0.5em;
+    display: inline-block;
+    line-height: 1.15;
+    vertical-align: middle;
+}
+
+.white_rec h1 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 1em;
+}
+
+.white_rec h2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    font-size: 0.22em;
+}
+
+.text_in_sec_1 {
     position: relative;
     margin-top: -3%;
 }
 
-.pos_abs{
-    position: absolute;
-    left: 0;
-    right: 0;
-}
-
-.text_in_block{    
+.text_in_block {    
     padding-top: 7%;
     margin-top: -8%;
     top: 70%;
@@ -59,43 +59,43 @@
     max-width: 30%;
 }
 
-.text_in{
+.text_in {
     display: inline-block;
     width: 45%;
     margin: 0 1%;
 }
 
-.block{    
+.block {    
     display: inline-block;
     width: 10%;
     position: relative;
     margin: 0 1%;
 }
 
-.blocks{    
+.blocks {    
     display: inline-block;
     width: 31%;
     position: relative;
     margin: 0 1%;
 }
 
-.block_img{
+.block_img {
     max-width: 325px;
 }
 
-.text_in_sec_4{
+.text_in_sec_4 {
     text-align: left;
 }
-.a_bit_left{
+.a_bit_left {
     margin-left: -10%;
     margin-right: 10%;
 }
 
-.width{
+.width {
     width: 250px;
 }
 
-.text_between{
+.text_between {
     margin-left: 5%;
     margin-right: 5%;
 }
