@@ -1,4 +1,17 @@
 @font-face {
-    font-family: Butler;
-    src: url(../fonts/Butler_Regular.woff2);
+    font-family: "Butler";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Butler"),
+        url(../fonts/Butler_Regular.woff2) format("woff2"),
+        url(../fonts/Butler_Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Butler";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Butler"),
+        url(../fonts/Butler_Light.woff2) format("woff2"),
+        url(../fonts/Butler_Light.woff) format("woff");
 }
