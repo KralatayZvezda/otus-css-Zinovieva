@@ -81,8 +81,7 @@
 
 .biography {
     transform: rotate(-90deg);
-    width: 90vh;
-    height: 0.9vw;
+    position: absolute;
 }
 
 .block_with_content {
@@ -132,9 +131,11 @@
 
 #Tree {
     display: block;
+    max-width: 1065px;
 }
 
-.container{
+.container {
+    height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -143,7 +144,7 @@
     align-content: center;
 }
 
-.container_for_right{
+.container_for_right {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -158,8 +159,6 @@
     float: left;
 }
 
-
-
 .block {    
     display: flex;
     flex-direction: column;
@@ -169,7 +168,26 @@
 }
 
 .block_img {
-    max-width: 325px;
+    max-width: 309px;
+    width: 100%;
+    height: auto;
+}
+
+.jess_img {
+    max-height: 538px;
+    width: auto;
+    height: 100%;
+}
+
+.jess_box {
+    font-size: 1.5rem;
+
+}
+
+.jess_box figcaption{
+    margin: 0;
+    padding: 0 10em;
+    box-sizing: border-box;
 }
 
 #Four {
@@ -199,4 +217,9 @@
 .text_between {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.none {
+    width: 0px;
+    height: 0px;
 }
