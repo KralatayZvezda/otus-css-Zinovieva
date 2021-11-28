@@ -131,10 +131,11 @@
 
 #Tree {
     display: block;
-    max-width: 1065px;
 }
 
 .container {
+    max-width: 1600px;
+    margin: 0 auto;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -150,13 +151,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
+
 }
 
 .designers {
-    display: inline;
+    
     position: absolute;
     transform: rotate(-90deg);
-    float: left;
 }
 
 .block {    
@@ -181,13 +182,17 @@
 
 .jess_box {
     font-size: 1.5rem;
-
+    flex-basis: 50%;
 }
 
 .jess_box figcaption{
     margin: 0;
     padding: 0 10em;
     box-sizing: border-box;
+}
+
+.jess_box figure {
+    margin: 0;
 }
 
 #Four {
