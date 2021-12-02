@@ -9,7 +9,7 @@
     font-weight: 300;
  }
 
-#One {    
+#Atlas_Studio {    
     max-width: 1065px;
     margin: 0 auto;
     height: 100vh;
@@ -32,7 +32,7 @@
     background-size: 100% auto;
 }
 
-.white_rec { 
+.rec { 
     background-color: white;
     font-size: 5.5rem;
     text-align: center;
@@ -44,13 +44,13 @@
     z-index: 1;
 }
 
-.white_rec h1 {
+.rec h1 {
     font-weight: 300;
     margin: 0;
     font-size: 1em;
 }
 
-.white_rec h2 {
+.rec h2 {
     position: absolute;
     left: 0;
     right: 0;
@@ -73,7 +73,7 @@
     color: #8C8888;
 }
 
-#Two {
+#Biography {
     height: 100vh;
     min-height: 37rem;
 }
@@ -137,7 +137,7 @@
     font-weight: 500;
 }
 
-#Three {
+#Designers {
     height: 100vh;
     max-width: 1600px;
     margin: 0 auto;
@@ -145,7 +145,6 @@
 }
 
 .container {
-    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -154,8 +153,7 @@
     align-content: center;
 }
 
-.container_for_right {
-    width: 50%;
+.container_for_others {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -195,8 +193,9 @@
 }
 
 .jess_box {
-    width: 45%;
+    width: 50%;
     font-size: 1.5rem;
+    box-sizing: border-box;
     padding-right: 5%;
 }
 
@@ -210,7 +209,7 @@
     margin: 0;
 }
 
-#Four {
+#Testimonials {
 
 }
 
