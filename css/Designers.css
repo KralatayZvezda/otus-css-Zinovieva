@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
+    position: relative;
 }
 
 .container {
@@ -20,11 +21,11 @@
 }
 
 .designers {
-    bottom: 0;
-    right: 0;
+    top: -110px;
+    right: 10px;
     position: absolute;
     transform: rotate(-90deg);
-    transform-origin: left;
+    transform-origin: right;
 }
 
 .block {
@@ -32,6 +33,7 @@
     width: 25%;
     padding-left: 2%;
     box-sizing: border-box;
+    position: relative;
 }
 
 .block_img {
@@ -47,8 +49,10 @@
 }
 
 .jess_box {
+    margin: 0;
     width: 50%;
     box-sizing: border-box;
+    padding-right: 30px;
 }
 
 .jess_box figcaption{
