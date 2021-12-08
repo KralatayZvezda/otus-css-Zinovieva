@@ -1,6 +1,7 @@
  @import 'Atlas_Studio.css';
  @import 'Biography.css';
  @import 'Designers.css';
+ @import 'Testimonials.css';
  
  body {
     overflow-x: hidden;
@@ -12,38 +13,4 @@
     font-family: "Butler", sans-serif;
     font-weight: 300;
  }
-
-
-#Testimonials {
-
-}
-
-.blocks {    
-    display: inline-block;
-    width: 31%;
-    position: relative;
-    margin: 0 1%;
-}
-
-
-.text_in_sec_4 {
-    text-align: left;
-}
-.a_bit_left {
-    margin-left: -10%;
-    margin-right: 10%;
-}
-
-.width {
-    width: 250px;
-}
-
-.text_between {
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.none {
-    width: 0px;
-    height: 0px;
-}
+ 

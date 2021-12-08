@@ -1,0 +1,59 @@
+#Testimonials {
+    display: grid;
+    height: 100vh;
+    max-width: 1065px;
+    margin: 0 auto;
+    min-height: 37rem;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50px auto;
+    align-content: center;
+
+}
+
+.testim {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 84px;
+    box-sizing: border-box;
+}
+
+.link {
+    margin: 0 40px;
+    box-sizing: border-box;
+}
+
+.links {
+    display: inline-flex;
+    transform: rotate(-90deg);
+    flex-wrap: nowrap;
+    width: 84px;
+    justify-content: space-around;
+}
+
+.cafe_img{
+    max-width: calc(100% - 84px);
+    max-height: 100%;
+}
+
+.cafe {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.people {
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.woman_img {
+    width: 100%;
+    height: auto;
+}
+
+.block_woman {    
+    width: 45%;
+    margin: auto 0;
+}
