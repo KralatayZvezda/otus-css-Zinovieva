@@ -3,8 +3,11 @@
     margin: 0 auto;
     height: 100vh;
     box-sizing: border-box;
-    line-height: 100vh;
+        /* не работает как нужно*/
+    line-height: 100vh; 
+        /*  */
     text-align: center;
+    max-height: 900px;
 }
 
 .img_background {
@@ -16,8 +19,9 @@
     right: 0;
     left: 0;
     bottom: 0;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1065px;
+    max-height: 900px;
     background-size: 100% auto;
 }
 
@@ -45,19 +49,4 @@
     right: 0;
     margin: 0;
     font-size: 0.22em;
-}
-
-.studio {
-    max-width: 1065px;
-    margin: 0 auto;
-    padding-left: calc(0.57 * 1065px);
-    box-sizing: border-box;
-    font-size: 1.125rem;
-    height: 0.82em;
-}
-
-.studio h3 {
-    font-weight: 400;
-    font-size: 1em;
-    color: #8C8888;
 }

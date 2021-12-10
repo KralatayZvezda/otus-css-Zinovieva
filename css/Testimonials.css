@@ -1,13 +1,13 @@
 #Testimonials {
     display: grid;
     height: 100vh;
-    max-width: 1065px;
+    max-width: 1400px;
     margin: 0 auto;
     min-height: 37rem;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 50px auto;
-    align-content: center;
-
+    grid-template-rows: 50px 1fr;
+    max-height: 900px;
+    position: relative;
 }
 
 .testim {
@@ -36,16 +36,18 @@
 }
 
 .cafe {
+    max-height: 850px;
     display: inline-flex;
     flex-wrap: nowrap;
     align-items: center;
 }
 
 .people {
+    max-height: 850px;
     display: flex;
     text-align: center;
     flex-wrap: nowrap;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .woman_img {

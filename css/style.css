@@ -2,7 +2,9 @@
  @import 'Biography.css';
  @import 'Designers.css';
  @import 'Testimonials.css';
- 
+ @import 'Strong_points.css';
+
+
  body {
     overflow-x: hidden;
     width: 100%;
@@ -13,4 +15,22 @@
     font-family: "Butler", sans-serif;
     font-weight: 300;
  }
+
+ .section {
+    max-height: 900px;
+ }
  
+.studio {
+    max-width: 1065px;
+    margin: 0 auto;
+    padding-left: calc(0.57 * 1065px);
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    height: 0.82em;
+}
+
+.studio h3 {
+    font-weight: 400;
+    font-size: 1em;
+    color: #8C8888;
+}
