@@ -28,13 +28,11 @@
 }
 
 .full-img {
-    
-    max-height: 100%;
-    max-width: 100%;
+
 }
 
 .out-img {
-    height: 40%;
+
 }
 
 .strength {
@@ -52,15 +50,17 @@
 
     #Strong_points {
         display: grid;
-        grid-template-columns: 10% 45% 40% 5%;
-        grid-template-rows: 100px auto;
+        grid-template-columns: 30% 30% 35% 5%;
+        grid-template-rows: 200px 525px;
         
     }
 
     .strong {
         transform: rotate(-90deg);
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 3;
+        width: 200px;
+
     }
 
     .strength {
@@ -74,12 +74,12 @@
     }
 
     .strength-block {
-        max-height: 800px;
+        max-height: 700px;
     }
 
     .list {
         padding-left: 70px;
-        max-height: 800px;
+        max-height: 700px;
     }
     
     .strong {
@@ -92,12 +92,12 @@
     
     .full-img {
         max-height: 100%;
-        max-width: 100%;
+        
     }
     
     .out-img {
-        max-height: 800px;
-        height: 50%;
+        max-height: 100%;
+        
     }
 
     .notebook {
