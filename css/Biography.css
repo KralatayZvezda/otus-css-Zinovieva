@@ -3,11 +3,13 @@
     min-height: 37rem;
     position: relative;
     max-height: 900px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .biography {
     bottom: 0;
-    right: -7%;
+    right: -5%;
     transform: rotate(-90deg);
     position: absolute;
     transform-origin: left;
