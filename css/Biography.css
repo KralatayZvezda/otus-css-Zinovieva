@@ -1,12 +1,3 @@
-#Biography {
-    
-    min-height: 37rem;
-    position: relative;
-    max-height: 900px;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .biography {
     bottom: 0;
     right: -5%;
@@ -22,19 +13,19 @@
     max-width: 1400px;
 }
 
-.image {
+.biography-float {
     float: left;
     width: 50%;
-    padding-right: 10px;
     box-sizing: border-box;
+}
+
+.image {
+    padding-right: 10px;
     padding-left: 10px;
     text-align: center;
 }
 
 .block_with_text {
-    float: left;
-    width: 50%;    
-    box-sizing: border-box;
     text-align: left;
     padding-left: 5%;
     padding-right: 10%;

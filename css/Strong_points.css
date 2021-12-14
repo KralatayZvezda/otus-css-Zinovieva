@@ -1,16 +1,10 @@
 #Strong_points {
     height: 100vh;
-    max-width: 1440px;
-    margin: 0 auto;
-    min-height: 37rem;
-    max-height: 900px;
-    position: relative;
 }
 
 .strength h3{
     margin: 0;
     font-weight: 300;
-    
 }
 
 .list ul {
@@ -25,7 +19,6 @@
 }
 
 .strong {
-    display: inline-block;
     top: 10%;
     left: 30%;
     transform: rotate(-90deg);
@@ -42,14 +35,10 @@
     max-width: 350px;
 }
 
-.out-img {
-    max-height: 525px;
-    max-width: 350px;
-}
-
 .last-block {
+    overflow-x: hidden;
+    width: 105px;
     position: absolute;
-    box-sizing: border-box;
     padding-left: 1300px;
 }
 
@@ -57,7 +46,6 @@
     height: 215px;
     box-sizing: border-box;
     padding-top: 100px;
-    
     padding-left: 800px;
 }
 
@@ -72,7 +60,7 @@
     #Strong_points {
         display: grid;
         grid-template-columns: 27% 27% 38% 8%;
-        grid-template-rows: 213px 525px 162px;
+        grid-template-rows: 213px 530px 162px;
         
     }
 
@@ -108,16 +96,6 @@
     
     .strength-block {
         padding-right: 10px;
-    }
-    
-    .full-img {
-        max-height: 100%;
-        
-    }
-    
-    .out-img {
-    
-        max-height: 100%;
     }
 
     .notebook {
