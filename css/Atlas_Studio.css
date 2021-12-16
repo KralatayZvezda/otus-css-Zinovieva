@@ -1,36 +1,29 @@
 #Atlas_Studio {    
-    max-width: 1065px;
     height: 100vh;
     box-sizing: border-box;
-    /* не работает как нужно*/
-    line-height: 100vh; 
-    text-align: center;
-    
 }
 
 .img_background {
     background: url(../img/inside.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
-    margin: 0 auto;
-    background-size: 100% auto;
 }
 
 .rec { 
     background-color: white;
-    font-size: 5.5rem;
+    position: absolute;
+    width: 100%;
+    font-size: 4.375rem;
     text-align: center;
-    padding: 1.5em 0.5em;
-    display: inline-block;
-    line-height: 1.15;
+    padding: 1.5em 0;
     vertical-align: middle;
-    position: relative;
-    z-index: 1;
+
 }
 
 .rec h1 {

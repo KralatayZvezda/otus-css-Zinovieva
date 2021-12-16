@@ -17,10 +17,7 @@
  }
 
  section:nth-child(n) {
-    min-height: 37rem;
     position: relative;
-    max-height: 900px;
-    max-width: 1440px;
     margin: 0 auto;
  }
  
