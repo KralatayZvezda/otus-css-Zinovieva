@@ -1,6 +1,4 @@
 #Atlas_Studio {    
-    max-width: 1065px;
-    height: 100vh;
     box-sizing: border-box;
     /* не работает как нужно*/
     line-height: 100vh; 
@@ -9,6 +7,7 @@
 }
 
 .img_background {
+    max-width: 1065px;
     background: url(../img/inside.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -45,4 +44,12 @@
     right: 0;
     margin: 0;
     font-size: 0.22em;
+}
+
+@supports (display: flex) {
+    .Atlas_Studio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

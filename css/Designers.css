@@ -1,6 +1,6 @@
 #Designers {
+    min-width: 1px;
     display: flex;
-    height: 100vh;
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;

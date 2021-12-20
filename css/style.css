@@ -16,7 +16,12 @@
     font-weight: 300;
  }
 
- section:nth-child(n) {
+* {
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
     min-height: 37rem;
     position: relative;
     max-height: 900px;
