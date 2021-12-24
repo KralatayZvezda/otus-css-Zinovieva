@@ -24,7 +24,7 @@
     background-color: white;
     font-size: 5.5rem;
     text-align: center;
-    padding: 1.5em 0.5em;
+    padding: 1.45em 0.67em;
     display: inline-block;
     line-height: 1.15;
     vertical-align: middle;
@@ -47,7 +47,7 @@
 }
 
 @supports (display: flex) {
-    .Atlas_Studio {
+    #Atlas_Studio {
         display: flex;
         justify-content: center;
         align-items: center;

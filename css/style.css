@@ -6,26 +6,41 @@
 
 
  body {
-    overflow-x: hidden;
-    width: 100%;
-    font-family: "Roboto", sans-serif;
+   overflow-x: hidden;
+   width: 100%;
+   font-family: "Roboto", sans-serif;
  }
 
  .butler {
-    font-family: "Butler", sans-serif;
-    font-weight: 300;
+   font-family: "Butler", sans-serif;
+   font-weight: 300;
  }
 
 * {
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 section {
-    height: 100vh;
-    min-height: 37rem;
-    position: relative;
-    max-height: 900px;
-    max-width: 1440px;
-    margin: 0 auto;
+   height: 100vh;
+   min-height: 37rem;
+   position: relative;
+   max-height: 900px;
+   max-width: 1440px;
+   margin: 0 auto;
  }
  
+ .bg-test {
+   background: url(../img/Otus-0.jpg);
+   width: 1440px;
+   height: 0;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+   margin: 0 auto;
+   background-size: 100% auto;
+   opacity: 0.15;
+ }

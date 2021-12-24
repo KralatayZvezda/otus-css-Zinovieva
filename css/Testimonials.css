@@ -1,7 +1,9 @@
 #Testimonials {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 140px 1fr;
+    width: 1250px;
+    align-items: center;
 }
 
 .testim {
@@ -25,19 +27,19 @@
 }
 
 .cafe_img{
-    max-width: calc(100% - 84px);
-    max-height: 100%;
+    width: 515px;
+    height: 757px;
 }
 
 .cafe {
-    max-height: 850px;
+    height: 757px;
     display: inline-flex;
     flex-wrap: nowrap;
     align-items: center;
 }
 
 .people {
-    max-height: 850px;
+    height: 757px;
     display: flex;
     text-align: center;
     flex-wrap: nowrap;
@@ -51,5 +53,4 @@
 
 .block_woman {    
     width: 45%;
-    margin: auto 0;
 }

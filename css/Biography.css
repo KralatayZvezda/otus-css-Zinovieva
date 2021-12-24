@@ -1,6 +1,6 @@
 .biography {
     bottom: 0;
-    right: -5%;
+    right: -2%;
     transform: rotate(-90deg);
     position: absolute;
     transform-origin: left;
@@ -20,8 +20,7 @@
 }
 
 .image {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 60px;
     text-align: center;
 }
 
@@ -29,6 +28,7 @@
     text-align: left;
     padding-left: 5%;
     padding-right: 10%;
+
 }
 
 .image img {
@@ -37,7 +37,10 @@
 }
 
 .block_with_text h3 {
+    padding-top: 190px;
+    padding-left: 40px;
     max-width: 25%;
+    margin: 0;
 }
 
 .block_with_text h4 {
@@ -46,10 +49,15 @@
 
 .block_with_text blockquote {
     box-sizing: border-box;
-    padding: 1.3em 0;
+    margin: 0;
+    padding-top: 70px;
+    padding-left: 40px;
+    
 }
 
 .block_with_text h4 {
+    padding-top: 25px;
+    padding-left: 40px;
     font-weight: 500;
 }
 

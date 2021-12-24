@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
+    align-items: flex-start;
 }
 
 .container {
@@ -13,12 +14,12 @@
     align-content: center;
     flex-wrap: nowrap;
     align-items: baseline;
-    
+    width: 1366px;
 }
 
 .designers {
-    top: -110px;
-    right: 30px;
+    top: -140px;
+    right: 0;
     position: absolute;
     transform: rotate(-90deg);
     transform-origin: right;
@@ -33,28 +34,23 @@
 }
 
 .block_img {
-    max-width: 309px;
-    width: 100%;
+    width: 311px;
     height: 100%;
 }
 
 .jess_img {
-    max-height: 609px;
-    width: 100%;
-    height: 100%;
+    width: 609px;
+    height: 538px;
 }
 
 .jess_box {
     margin: 0;
     width: 50%;
-    box-sizing: border-box;
-    padding-right: 30px;
 }
 
 .jess_box figcaption{
     margin: 0;
-    padding: 0 5em;
-    box-sizing: border-box;
+    padding: 0 10em;
 }
 
 .jess_box figure {
