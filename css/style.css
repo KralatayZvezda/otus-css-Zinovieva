@@ -20,27 +20,32 @@
    box-sizing: border-box;
 }
 
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 section {
-   height: 100vh;
-   min-height: 37rem;
-   position: relative;
-   max-height: 900px;
-   max-width: 1440px;
-   margin: 0 auto;
+  height: 100vh;
+  min-width: 1024px;
+  min-height: 800px;
+  position: relative;
+  width: 100%;
+   
  }
  
  .bg-test {
-   background: url(../img/Otus-0.jpg);
-   width: 1440px;
-   height: 0;
-   background-repeat: no-repeat;
-   background-position: center;
-   position: absolute;
-   top: 0;
-   right: 0;
-   left: 0;
-   bottom: 0;
-   margin: 0 auto;
-   background-size: 100% auto;
-   opacity: 0.15;
+  background: url(../img/Otus-0.jpg);
+  width: 1440px;
+  height: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  background-size: 100% auto;
+  opacity: 0.15;
  }

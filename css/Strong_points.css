@@ -38,7 +38,7 @@
 
 .full-img {
     max-height: 525px;
-    width: 350px;
+    width: 100%;
 }
 
 .strength {
@@ -67,7 +67,7 @@
     
     .con {
         display: grid;
-        grid-template-columns: 25% 25% 560px 25%;
+        grid-template-columns: calc((max-content - 560px) / 3) 25% 560px 25%;
         grid-template-rows: 275px 525px auto;
         grid-column-gap: 28px;
     }

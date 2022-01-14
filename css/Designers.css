@@ -1,10 +1,10 @@
 #Designers {
-    min-width: 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
     align-items: flex-start;
+    overflow-x: auto;
 }
 
 .container {
@@ -14,7 +14,6 @@
     align-content: center;
     flex-wrap: nowrap;
     align-items: baseline;
-    width: 1366px;
 }
 
 .designers {
@@ -34,13 +33,11 @@
 }
 
 .block_img {
-    width: 311px;
-    height: 100%;
+    width: 100%;
 }
 
 .jess_img {
-    width: 609px;
-    height: 538px;
+    width: 100%;
 }
 
 .jess_box {
