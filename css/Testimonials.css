@@ -1,58 +1,108 @@
-#Testimonials {
-    display: grid;
-    grid-template-columns: 100px 60% 40%;
-    grid-template-rows: 140px calc(100vh - 140px);
+@media screen and (min-width: 1024px) {
+    #Testimonials {
+        display: grid;
+        grid-template-columns: 100px 60% 40%;
+        grid-template-rows: 140px calc(100vh - 140px);
+        
+        align-items: center;
+    }
     
-    align-items: center;
+    .testim {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin-left: 84px;
+        box-sizing: border-box;
+    }
+    
+    .link {
+        margin: 0 40px;
+        box-sizing: border-box;
+    }
+    
+    .links {
+        display: flex;
+        transform: rotate(-90deg);
+        flex-wrap: nowrap;
+        width: 84px;
+        justify-content: space-around;
+    }
+    
+    .cafe_img{
+        height: 100%;
+    }
+    
+    .cafe {
+        grid-column: 2;
+        grid-row: 2;
+        height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    .people {
+        grid-column: 3;
+        grid-row: 2;
+        display: flex;
+        text-align: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    .woman_img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .block_woman {    
+        width: 45%;
+    }
 }
 
-.testim {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    margin-left: 84px;
-    box-sizing: border-box;
-}
+@media screen and (max-width: 1023px) {
+    #Testimonials {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
-.link {
-    margin: 0 40px;
-    box-sizing: border-box;
-}
+    .testim {
+        text-align: right;
+        padding-right: 50px;
+        padding-bottom: calc(100vh * 0.12);
+    }
 
-.links {
-    display: flex;
-    transform: rotate(-90deg);
-    flex-wrap: nowrap;
-    width: 84px;
-    justify-content: space-around;
-}
+    .cafe {
+        order: 3;
+    }
 
-.cafe_img{
-    height: 100%;
-}
+    .cafe_img {
+        display: none;
+    }
 
-.cafe {
-    grid-column: 2;
-    grid-row: 2;
-    height: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-}
+    .people {
+        order: 2;
+        text-align: center;
+        padding-bottom: 43px;
+    }
 
-.people {
-    grid-column: 3;
-    grid-row: 2;
-    display: flex;
-    text-align: center;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
+    .woman_img img {
+        width: 90vw;
+        height: auto;
+        transform: translateY(-50%);
+    }
 
-.woman_img {
-    width: 100%;
-    height: auto;
-}
+    .woman_img {
+        overflow-y: hidden;
+        max-height: calc(100vh * 0.34);
+        margin: 0 auto;
+    }
 
-.block_woman {    
-    width: 45%;
+    .links {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        justify-items: center;
+        grid-row-gap: calc(100vh * 0.044);
+    }
 }
