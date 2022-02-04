@@ -1,0 +1,116 @@
+@media screen and (min-width: 1024px) {
+    #Designers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        overflow-x: auto;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+        align-items: baseline;
+    }
+    
+    .designers {
+        top: -140px;
+        right: 0;
+        position: absolute;
+        transform: rotate(-90deg);
+        transform-origin: right;
+    }
+    
+    .block {
+        margin: 0;
+        width: 25%;
+        padding-left: 2%;
+        box-sizing: border-box;
+        position: relative;
+    }
+    
+    .block_img {
+        width: 100%;
+    }
+    
+    .jess_img {
+        width: 100%;
+    }
+    
+    .jess_box {
+        margin: 0;
+        width: 50%;
+    }
+    
+    .jess_box figcaption{
+        margin: 0;
+        padding: 0 10em;
+    }
+    
+    .jess_box figure {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    #Designers {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: auto;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+        align-items: baseline;
+    }
+    
+    .designers {
+        position: absolute;
+        top: -80px;
+        right: -60px;
+        margin: 0;
+    }
+    
+    .block {
+        margin: 0;
+        width: 20%;
+        padding-left: 1%;
+        box-sizing: border-box;
+        position: relative;
+    }
+    
+    .block_img {
+        height: 100%;
+    }
+    
+    .jess_img {
+        height: 100%;
+        
+    }
+    
+    .jess_box {
+        position: relative;
+        margin: 0;
+        width: 60%;
+    }
+    
+    .jess_box figcaption{
+        margin: 0;
+    }
+    
+    .jess_box figure {
+        margin: 0;
+    }
+}
