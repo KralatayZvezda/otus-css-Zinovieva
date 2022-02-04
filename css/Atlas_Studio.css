@@ -1,52 +1,101 @@
-#Atlas_Studio {    
-    max-width: 1065px;
-    margin: 0 auto;
-    height: 100vh;
-    box-sizing: border-box;
-        /* не работает как нужно*/
-    line-height: 100vh; 
-        /*  */
-    text-align: center;
-    max-height: 900px;
-}
+@media screen and (min-width: 1024px) {
+    #Atlas_Studio {    
+        box-sizing: border-box;
+        line-height: 100vh; 
+        text-align: center;
+    }
+    
+    .img_background {
+        max-width: 1065px;
+        background: url(../img/inside.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: 0 auto;
+        background-size: 100% auto;
+    }
+    
+    .rec { 
+        background-color: white;
+        font-size: 5.5rem;
+        text-align: center;
+        padding: 1.45em 0.67em;
+        display: inline-block;
+        line-height: 1.15;
+        vertical-align: middle;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .rec h1 {
+        font-weight: 300;
+        margin: 0;
+        font-size: 1em;
+    }
+    
+    .rec h2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0;
+        font-size: 0.22em;
+    }
+    
+    @supports (display: flex) {
+        #Atlas_Studio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+  }
+  
+@media screen and (max-width: 1023px) {
+    #Atlas_Studio {
+        height: 100vh;
+    }
 
-.img_background {
-    background: url(../img/inside.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: 0 auto;
-    max-width: 1065px;
-    max-height: 900px;
-    background-size: 100% auto;
-}
+    .img_background {
+        height: 100vh;
+        width: auto;
+        background: url(../img/inside.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        position: absolute;
+        margin: 0 auto;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-size: cover;
+    }
 
-.rec { 
-    background-color: white;
-    font-size: 5.5rem;
-    text-align: center;
-    padding: 1.5em 0.5em;
-    display: inline-block;
-    line-height: 1.15;
-    vertical-align: middle;
-    position: relative;
-    z-index: 1;
-}
+    .rec {
+        background-color: white;
+        text-align: center;
+        padding-top: calc(100vh * 4 / 9 - 160px);
+        vertical-align: bottom;
+        position: relative;
+        z-index: 1;
+        font-size: 5.5rem;
+    }
 
-.rec h1 {
-    font-weight: 300;
-    margin: 0;
-    font-size: 1em;
-}
-
-.rec h2 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0;
-    font-size: 0.22em;
-}
+    .rec h1 {
+        font-weight: 300;
+        margin: 0;
+        padding-bottom: 60px;
+        font-size: 1em;
+    }
+    
+    .rec h2 {
+        left: 0;
+        right: 0;
+        margin: 0;
+        padding-bottom: 30px;
+        font-size: 0.22em;
+    }
+  }
