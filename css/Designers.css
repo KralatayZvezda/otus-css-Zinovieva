@@ -18,8 +18,8 @@
     }
     
     .designers {
-        top: -140px;
-        right: 0;
+        top: 275px;
+        right: 370px;
         position: absolute;
         transform: rotate(-90deg);
         transform-origin: right;
@@ -37,13 +37,10 @@
         width: 100%;
     }
     
-    .jess_img {
-        width: 100%;
-    }
-    
     .jess_box {
         margin: 0;
         width: 50%;
+        padding: 0;
     }
     
     .jess_box figcaption{
@@ -62,9 +59,10 @@
         justify-content: flex-start;
         flex-wrap: nowrap;
         overflow-x: auto;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         overflow-x: auto;
+        
     }
     
     .container {
@@ -78,32 +76,25 @@
     
     .designers {
         position: absolute;
-        top: -80px;
-        right: -60px;
+        top: 170px;
+        right: -190px;
         margin: 0;
     }
     
     .block {
         margin: 0;
-        width: 20%;
-        padding-left: 1%;
-        box-sizing: border-box;
-        position: relative;
+        padding-left: 30px;
+        overflow-x: hidden;
+        max-width: calc(100vw * 0.61);
     }
-    
-    .block_img {
-        height: 100%;
-    }
-    
-    .jess_img {
-        height: 100%;
-        
-    }
-    
+
     .jess_box {
-        position: relative;
-        margin: 0;
-        width: 60%;
+        padding-left: 10px;
+    }
+
+    .block_img {
+        height: calc(100vh * 0.45);
+        width: auto;
     }
     
     .jess_box figcaption{
