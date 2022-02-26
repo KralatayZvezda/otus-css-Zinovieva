@@ -1,0 +1,14 @@
+.section-biography-container {
+    padding-left: 60px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-biography-container {
+        padding: 0;
+        overflow-y: hidden;
+        max-height: calc(100vh * 0.38);
+        margin: 0 auto;
+        order: 2;
+    }
+}

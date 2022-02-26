@@ -1,0 +1,15 @@
+.section-biography-text {
+    text-align: left;
+    padding-left: calc(100vh * 0.05 + 40px);
+    padding-right: 10%;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-biography-text {
+        padding: 0;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;  
+    }
+}

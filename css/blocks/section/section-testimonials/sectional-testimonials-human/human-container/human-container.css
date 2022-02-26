@@ -1,0 +1,9 @@
+.human-container {    
+    width: 45%;
+}
+
+@media screen and (max-width: 1023px) {
+    .human-container {
+        width: auto;
+    }
+}

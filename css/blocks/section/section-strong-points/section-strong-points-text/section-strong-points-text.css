@@ -1,0 +1,21 @@
+.section-strong-points-text {
+    height: 135px;
+    margin-top: 140px;
+    margin-left: 800px;
+}
+
+@supports (display: grid) {
+    .section-strong-points-text {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        margin: 0;
+        height: auto;
+        padding-top: 140px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .section-strong-points-text {
+        padding: 0;
+    }
+}

@@ -1,0 +1,17 @@
+.section-biography-text__name {
+    font-size: 5.5rem;
+    font-family: "Butler", sans-serif;
+    font-weight: 300;
+    padding-top: 190px;
+    max-width: 25%;
+    margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-biography-text__name {
+        padding: 0;
+        max-width: none;
+        text-align: center;
+        order: 3;
+    }
+}

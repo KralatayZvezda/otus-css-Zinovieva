@@ -1,0 +1,18 @@
+.section-designers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    overflow-x: auto;
+    width: inherit;
+    height: inherit;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-designers {
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+    }
+}

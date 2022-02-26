@@ -1,0 +1,16 @@
+.section-testimonials {
+    height: inherit;
+    display: grid;
+    grid-template-columns: 100px 60% 40%;
+    grid-template-rows: 140px calc(100vh - 140px);
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-testimonials {
+        display: flex;
+        align-items: unset;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}

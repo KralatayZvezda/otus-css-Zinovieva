@@ -1,0 +1,10 @@
+.designers-img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .designers-img {
+        height: calc(100vh * 0.45);
+        width: auto;
+    } 
+}

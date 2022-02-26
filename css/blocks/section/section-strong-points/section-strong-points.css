@@ -1,0 +1,28 @@
+.section-strong-points {
+    max-width: 100%;
+    width: min-content;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+@supports (display: grid) {
+    .section-strong-points {
+        white-space: normal;
+        max-width: none;
+        width: auto;
+        display: grid;
+        grid-template-columns: calc((max-content - 560px) / 3) 25% 560px 25%;
+        grid-template-rows: 275px 525px auto;
+        grid-column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    @supports (display: grid) {
+        .section-strong-points {
+            grid-template-columns: calc((max-content - 215px) / 3) 25% 215px 25%;
+            grid-template-rows: calc(100vh * 0.17) 100px auto;
+            grid-column-gap: 22px;
+        }
+    }
+}

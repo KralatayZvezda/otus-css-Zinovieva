@@ -1,0 +1,20 @@
+.rectangular-atlas-section { 
+    background-color: white;
+    font-size: 5.5rem;
+    text-align: center;
+    padding: 1.45em 0.67em;
+    display: inline-block;
+    line-height: 1.15;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+    .rectangular-atlas-section {
+        padding: 0;
+        display: block;
+        line-height: normal;
+        padding-top: calc(100vh * 4 / 9 - 160px);
+    }
+}

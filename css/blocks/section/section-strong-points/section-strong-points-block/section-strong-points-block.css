@@ -1,0 +1,17 @@
+.section-strong-points-block {
+    display: inline-block;
+    width: 350px;
+    margin-left: 22px;
+}
+
+@supports (display: grid) {
+    .strength-block {
+        margin: 0;
+    }
+}
+
+.section-strong-points-block::after {
+    content: "";
+    display: block;
+    clear: both;
+}
