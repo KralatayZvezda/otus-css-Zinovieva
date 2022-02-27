@@ -1,0 +1,17 @@
+.section-designers__title {
+    font-size: 1.125rem;
+    top: calc(100vh * 0.12);
+    right: calc(100vw * 0.26);
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: right;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-designers__title {
+        transform: none;
+        top: calc(100vh * 0.17);
+        right: calc(100vw * 0.18);
+        margin: 0;
+    }
+}

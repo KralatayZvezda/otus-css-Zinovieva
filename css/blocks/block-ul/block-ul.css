@@ -1,0 +1,19 @@
+.blocvk-ul {
+    width: 560px;
+    padding-left: 100px;
+    vertical-align: top;
+}
+
+@supports (display: grid) {
+    .blocvk-ul {
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .blocvk-ul {
+        width: 215px;
+        padding-left: 5px;
+        vertical-align: top;
+    }
+}

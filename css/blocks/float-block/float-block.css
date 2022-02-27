@@ -1,0 +1,12 @@
+.float-block {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+    .float-block {
+        float: none;
+        width: 100%;
+    }
+}

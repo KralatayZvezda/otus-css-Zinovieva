@@ -1,0 +1,9 @@
+.section-testimonials-cafe__img {
+    height: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-testimonials-cafe__img {
+        display: none;
+    }
+}

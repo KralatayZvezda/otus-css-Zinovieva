@@ -1,0 +1,21 @@
+.section-atlas-studio {
+    height: inherit;
+    line-height: 100vh; 
+    text-align: center;
+}
+
+@supports (display: flex) {
+    .section-atlas-studio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .section-atlas-studio {
+        display: block;
+        height: 100vh;
+        line-height: normal;
+    }
+}

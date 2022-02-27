@@ -1,0 +1,18 @@
+.section-biography__title {
+    font-size: 1.125rem;
+    bottom: 0;
+    right: -2%;
+    transform: rotate(-90deg);
+    position: absolute;
+    transform-origin: left;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-biography__title {
+        transform: none;
+        transform-origin: 0;
+        bottom: auto;
+        top: 10px;
+        right: 30px;
+    }
+}

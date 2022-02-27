@@ -1,0 +1,19 @@
+.links {
+    display: flex;
+    transform: rotate(-90deg);
+    flex-wrap: nowrap;
+    width: 84px;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1023px) {
+    .links {
+        transform: none;
+        width: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        justify-items: center;
+        grid-row-gap: calc(100vh * 0.044);
+    }
+}

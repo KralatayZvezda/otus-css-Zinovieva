@@ -1,0 +1,7 @@
+@media screen and (max-width: 1023px) {
+    .section-biography-img {
+        width: 100vw;
+        height: auto;
+        transform: translateY(-25%);
+    }
+}
