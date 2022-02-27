@@ -58,8 +58,3 @@
 @import 'blocks/block-ul/block-ul.css';
 @import 'blocks/block-ul/ul/ul.css';
 @import 'blocks/block-ul/ul/__li/ul__li.css';
-
-.butler {
-  font-family: "Butler", sans-serif;
-  font-weight: 300;
- }
