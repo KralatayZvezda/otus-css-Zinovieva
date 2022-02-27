@@ -1,0 +1,34 @@
+.container-img {
+    overflow-y: hidden;
+    max-height: calc(100vh * 0.38);
+}
+
+.cut-img {
+    width: 100vw;
+    height: auto;
+    transform: translateY(-25%);
+}
+
+.title {
+    top: 10px;
+    right: 30px;
+}
+
+@media screen and (min-width:992px) {
+    .container-img {
+        max-height: none;
+        overflow-y: auto;
+    }
+
+    .cut-img {
+        transform: translateY(0);
+    }
+
+    .title {
+        bottom: 0;
+        top: auto;
+        right: -10%;
+        transform: rotate(-90deg);
+        transform-origin: left;
+    }
+}
