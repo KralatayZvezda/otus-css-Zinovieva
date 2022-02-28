@@ -1,0 +1,23 @@
+.section-atlas-studio__img-background {
+    max-width: 1065px;
+    background: url(0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    background-size: 100% auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .section-atlas-studio__img-background {
+        max-width: none;
+        height: 100vh;
+        width: auto;
+        background-position: top;
+        background-size: cover;
+    }
+}
